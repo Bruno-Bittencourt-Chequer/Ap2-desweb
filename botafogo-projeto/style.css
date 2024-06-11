@@ -53,7 +53,7 @@ html {
 
 }
 .menu-atletas{
-    width: 100%;
+   
     padding: 25px;
     display: flex;
     align-items: center;
@@ -100,10 +100,43 @@ html {
     gap: 5px;
     padding: 10px;
     font-family: 'Brasika Display - Trial', sans-serif;
+    width: 200px;
 }
 .card-atleta img{
     height:200px;
     border-radius: 50%;
     border:1px solid black;
     
+}
+.card-atleta button{
+    outline: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    
+    cursor:pointer;
+}
+.card-atleta h4{
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin:0;
+}
+.lista-atletas{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1025px;
+}
+#btn-busca{
+    outline: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor:pointer;
+    margin-top:-20px;
 }
